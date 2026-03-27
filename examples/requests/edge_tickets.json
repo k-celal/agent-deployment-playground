@@ -1,0 +1,30 @@
+[
+  {
+    "id": "EDGE-001",
+    "title": "App crashes on startup",
+    "body": "The mobile app crashes immediately when I open it. Tried reinstalling but same crash happens.",
+    "user_email": "local_user@device",
+    "metadata": {"source": "edge", "device": "pixel7"}
+  },
+  {
+    "id": "EDGE-002",
+    "title": "Want offline mode for reports",
+    "body": "I need to view reports when I don't have internet. Please add offline mode feature.",
+    "user_email": "field_agent@device",
+    "metadata": {"source": "edge", "connectivity": "offline"}
+  },
+  {
+    "id": "EDGE-003",
+    "title": "How to change language?",
+    "body": "Where is the language setting? I want to switch to Turkish.",
+    "user_email": "user@device",
+    "metadata": {"source": "edge"}
+  },
+  {
+    "id": "EDGE-004",
+    "title": "Sync not working",
+    "body": "Data is not syncing with the server. Error message says timeout. My internet seems fine.",
+    "user_email": "user@device",
+    "metadata": {"source": "edge", "connectivity": "partial"}
+  }
+]

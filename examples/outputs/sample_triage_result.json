@@ -1,0 +1,12 @@
+{
+  "ticket_id": "TICKET-001",
+  "priority": "P1",
+  "category": "bug",
+  "summary": "High-priority bug affecting core functionality. No workaround available.",
+  "confidence": 0.87,
+  "suggested_team": "backend-auth",
+  "status": "success",
+  "processing_time_ms": 52.3,
+  "processed_at": "2024-01-15T09:01:00Z",
+  "deployment_mode": "realtime"
+}

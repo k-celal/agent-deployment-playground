@@ -1,0 +1,66 @@
+[
+  {
+    "id": "TICKET-001",
+    "title": "Login page returns 500 Internal Server Error",
+    "body": "When I try to login using Chrome browser, I get a 500 Internal Server Error. This started happening after the last deployment. Safari works fine. Tried clearing cookies but no luck.",
+    "user_email": "alice@company.com",
+    "created_at": "2024-01-15T09:00:00Z",
+    "metadata": {"source": "web", "browser": "chrome"}
+  },
+  {
+    "id": "TICKET-002",
+    "title": "Add dark mode to the dashboard",
+    "body": "It would be great if the dashboard had a dark mode option. Many of us work late hours and the bright white background causes eye strain. Maybe a toggle in settings?",
+    "user_email": "bob@company.com",
+    "created_at": "2024-01-15T10:30:00Z",
+    "metadata": {"source": "web"}
+  },
+  {
+    "id": "TICKET-003",
+    "title": "How do I export my data?",
+    "body": "I need to export all my project data as CSV. Where can I find the export option? I looked in settings but couldn't find it. Help please.",
+    "user_email": "charlie@company.com",
+    "created_at": "2024-01-15T11:00:00Z",
+    "metadata": {"source": "mobile"}
+  },
+  {
+    "id": "TICKET-004",
+    "title": "Payment failed - credit card charged but subscription not activated",
+    "body": "I tried to upgrade to Pro plan. My credit card was charged $29.99 but the subscription shows as 'Free' still. This is urgent - I need the Pro features for a client presentation tomorrow.",
+    "user_email": "diana@company.com",
+    "created_at": "2024-01-15T12:15:00Z",
+    "metadata": {"source": "web", "plan": "pro"}
+  },
+  {
+    "id": "TICKET-005",
+    "title": "Dashboard loading extremely slow",
+    "body": "The dashboard takes over 30 seconds to load. It used to be instant. Started happening this week. Other pages seem fine. I have good internet connection.",
+    "user_email": "eve@company.com",
+    "created_at": "2024-01-15T13:00:00Z",
+    "metadata": {"source": "web"}
+  },
+  {
+    "id": "TICKET-006",
+    "title": "Complete production outage - all APIs returning 500",
+    "body": "URGENT: All our API endpoints are returning 500 errors. Customer-facing services are completely down. Multiple customers are reporting issues. This started 10 minutes ago.",
+    "user_email": "ops@company.com",
+    "created_at": "2024-01-15T14:30:00Z",
+    "metadata": {"source": "monitoring", "severity": "critical"}
+  },
+  {
+    "id": "TICKET-007",
+    "title": "Button alignment issue on mobile",
+    "body": "The 'Submit' button on the contact form is misaligned on iPhone 14. It overlaps with the text field below. See attached screenshot.",
+    "user_email": "frank@company.com",
+    "created_at": "2024-01-15T15:00:00Z",
+    "metadata": {"source": "mobile", "device": "iphone14"}
+  },
+  {
+    "id": "TICKET-008",
+    "title": "Need integration with Slack",
+    "body": "We want to receive notifications in our Slack workspace when certain events happen. Can you add Slack integration? This would save us a lot of manual checking.",
+    "user_email": "grace@company.com",
+    "created_at": "2024-01-15T16:00:00Z",
+    "metadata": {"source": "web"}
+  }
+]

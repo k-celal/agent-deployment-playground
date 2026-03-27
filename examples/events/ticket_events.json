@@ -1,0 +1,78 @@
+[
+  {
+    "event_id": "evt-001",
+    "event_type": "ticket.created",
+    "payload": {
+      "id": "STREAM-TICKET-001",
+      "title": "Authentication service returning 500",
+      "body": "Auth service is failing for all users. Getting 500 errors on login endpoint. Started 5 minutes ago.",
+      "user_email": "monitoring@ops.com",
+      "metadata": {"source": "alert"}
+    }
+  },
+  {
+    "event_id": "evt-002",
+    "event_type": "ticket.created",
+    "payload": {
+      "id": "STREAM-TICKET-002",
+      "title": "Can you add CSV export?",
+      "body": "I need a feature to export my dashboard data as CSV. Currently there is no export option.",
+      "user_email": "user@company.com",
+      "metadata": {"source": "web"}
+    }
+  },
+  {
+    "event_id": "evt-003",
+    "event_type": "ticket.updated",
+    "payload": {
+      "id": "STREAM-TICKET-001",
+      "title": "Authentication service returning 500 - UPDATE",
+      "body": "Issue still ongoing. Root cause identified as database connection pool exhaustion.",
+      "user_email": "monitoring@ops.com"
+    }
+  },
+  {
+    "event_id": "evt-004",
+    "event_type": "ticket.created",
+    "payload": {
+      "id": "STREAM-TICKET-003",
+      "title": "Payment processing timeout",
+      "body": "Customers reporting payment timeouts. Stripe webhook logs show delayed responses. Affecting about 30% of transactions.",
+      "user_email": "payments-alert@company.com",
+      "metadata": {"source": "monitoring"}
+    }
+  },
+  {
+    "event_id": "evt-005",
+    "event_type": "ticket.created",
+    "payload": {
+      "id": "STREAM-TICKET-004",
+      "title": "How to set up SSO?",
+      "body": "We want to configure SAML SSO for our organization. Where do we start? What identity providers are supported?",
+      "user_email": "admin@enterprise.com",
+      "metadata": {"source": "web"}
+    }
+  },
+  {
+    "event_id": "evt-006",
+    "event_type": "ticket.created",
+    "payload": {
+      "id": "STREAM-TICKET-005",
+      "title": "UI button not clickable on Safari",
+      "body": "The submit button on the feedback form is not responsive on Safari 17. Works fine on Chrome and Firefox.",
+      "user_email": "qa@company.com",
+      "metadata": {"source": "qa"}
+    }
+  },
+  {
+    "event_id": "evt-007-dup",
+    "event_type": "ticket.created",
+    "payload": {
+      "id": "STREAM-TICKET-005",
+      "title": "UI button not clickable on Safari",
+      "body": "The submit button on the feedback form is not responsive on Safari 17. Works fine on Chrome and Firefox.",
+      "user_email": "qa@company.com",
+      "metadata": {"source": "qa", "note": "This is a duplicate event to test idempotency"}
+    }
+  }
+]
